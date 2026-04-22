@@ -1,21 +1,22 @@
 
 import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent } from '@ionic/react';
 
-const Template: React.FC = () =>{
+const Search: React.FC = () =>{
       return(
            <IonPage>
               <IonHeader>
                   <IonToolbar>
                     <IonButtons>
                     <IonMenuButton></IonMenuButton>
+                     <IonTitle>Search</IonTitle>
                   </IonButtons>
-                  <IonTitle>Template</IonTitle>
                 </IonToolbar>
               </IonHeader>
-              <IonContent fullscreen>
+               <IonContent className="ion-padding">
+                <h1>Search</h1>
               </IonContent>
               </IonPage>
       );
 
 };
-export default Template;
+export default Search;
